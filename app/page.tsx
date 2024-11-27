@@ -5,11 +5,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex text-secondary-900 font-extrabold">
-      Hello World
-      <h1 className="text-heading text-2xl">
+    <div className="container flex border-4 border-black">
+      <br/>
+      <h5 className="lg:text-red-700 xl:text-green-700">
         This is heading
-      </h1>
+      </h5>
     </div>
   );
 }
