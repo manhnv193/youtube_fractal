@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import colors from 'tailwindcss/colors';
 
 const config: Config = {
     darkMode: ["class"],
@@ -11,7 +12,7 @@ const config: Config = {
   	extend: {
 		// Có thể ghi đè các màu css tại đây
 		 
-
+		// COLORS PALLETTE FOR APP
   		colors: {
 			primary: {
 				"50": "#f3f4f6",
@@ -38,9 +39,25 @@ const config: Config = {
 				"900": "#0c446e"
 			},
 
-			//Base Color 
+			// Base Color 
 			black: "#1f1f1f",
 			white: "#ffffff",
+
+			// Default Color ["neutral", "gray", "slate"]
+
+
+			// Base Color Themes
+			heading: "#1f1f1f",
+			paragraphe: "#4b5563",
+			label: "#1f1f1f",
+			placeholder: "#9ca3af",
+			table: colors.gray[900], // or "#111827"
+			backgroundDisable: "#f3f4f6",
+
+			border: "#e5e7eb",
+			"input-border": colors.gray[500],
+
+
   			background: 'var(--background)',
   			foreground: 'var(--foreground)'
   		},
