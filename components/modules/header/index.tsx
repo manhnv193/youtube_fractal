@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function index() {
+export default function Header() {
   return (
-    <div>index</div>
+    <div>Header</div>
   )
 }
